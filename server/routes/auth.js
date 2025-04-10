@@ -19,8 +19,10 @@ router.post('/register', async (req, res) => {
     res
       .cookie('token', token, {
         httpOnly: true,
-        sameSite: 'Lax',
-        secure: false,
+        // sameSite: 'Lax',
+        // secure: false, // change to true if using https
+        sameSite: 'None',
+        secure: true,
       })
       .json({ msg: 'Registered & Logged in successfully' });
   } catch (err) {
@@ -42,8 +44,10 @@ router.post('/login', async (req, res) => {
     res
       .cookie('token', token, {
         httpOnly: true,
-        sameSite: 'Lax',
-        secure: false // change to true if using https
+        // sameSite: 'Lax',
+        // secure: false // change to true if using https
+        sameSite: 'None',
+        secure: true,
       })
       .json({ msg: 'Logged in successfully' });
   } catch (err) {
