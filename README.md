@@ -2,7 +2,7 @@
 
 A robust and streamlined foundation for user authentication in full-stack applications, leveraging the MERN stack (MongoDB, Express.js, React.js, Node.js) and `passport-jwt` for secure, stateless, token-based authentication. This boilerplate provides a solid starting point for building applications requiring secure user management.
 
-**Live Demo:** \[**Link to your deployed application (Optional)**]
+**Live Demo:** \**https://mern-jwt-auth-beta.vercel.app/**
 
 ---
 
@@ -29,7 +29,7 @@ A robust and streamlined foundation for user authentication in full-stack applic
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/shashi997/MERN-JWT-Auth.git](https://github.com/shashi997/MERN-JWT-Auth.git)
+    git clone https://github.com/shashi997/MERN-JWT-Auth.git
     cd MERN-JWT-Auth
     ```
 
