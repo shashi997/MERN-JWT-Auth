@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://mern-jwt-auth-server-lime.vercel.app/',
   withCredentials: true,
 });
